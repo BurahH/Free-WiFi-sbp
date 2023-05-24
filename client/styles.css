@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.map {
+    width: 500px;
+    height: 500px;
+    background: #333;
+}
+
+[class*="copyrights-pane"] {
+    display: none !important;
+}
+
+.info {
+    width: 700px;
+}
+
+.contentik {
+    margin-top: 55px;
+}
+
+.footer {
+    margin-top: auto;
+}
